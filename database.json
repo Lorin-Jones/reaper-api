@@ -1,0 +1,173 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "fullName": "Cowboy Dan",
+      "address": "4508 Bigote Beach Drive",
+      "email": "Hunchabunch@wizardportal.edu"
+    },
+    {
+      "id": 2,
+      "fullName": "Studs Terkel",
+      "address": "3256 Illinois Avenue",
+      "email": "AllSmiles@gosma.com"
+    },
+    {
+      "id": 3,
+      "fullName": "Hercule Poirot",
+      "address": "Cabin 12",
+      "email": "HPoirot@mysterinc.bg"
+    },
+    {
+      "id": 4,
+      "fullName": "Geno Spratley",
+      "address": "95607 Prentice Center",
+      "email": "gspratley0@topsy.com"
+    },
+    {
+      "id": 5,
+      "fullName": "Flora Caulder",
+      "address": "64 Canary Point",
+      "email": "fcaulder1@mail.ru"
+    },
+    {
+      "id": 6,
+      "fullName": "Norene Heck",
+      "address": "8 International Alley",
+      "email": "nheck2@altervista.org"
+    },
+    {
+      "id": 7,
+      "fullName": "Herman Overstone",
+      "address": "06608 Graedel Crossing",
+      "email": "hoverstone3@uol.com.br"
+    },
+    {
+      "id": 8,
+      "fullName": "Lorin Jones",
+      "address": "4910 Tennessee Avenue",
+      "email": "lorin.jones@gmail.com"
+    },
+    {
+      "fullName": "Snake Plisskin",
+      "address": "213 New York Avenue",
+      "email": "SPlisskin@escape.net",
+      "id": 9
+    }
+  ],
+  "events": [
+    {
+      "id": 1,
+      "name": "Exiting the Vampire's Castle",
+      "userId": 9,
+      "date": "2022-09-23",
+      "time": "7:00"
+    },
+    {
+      "name": "Walter's Weepies",
+      "date": "2022-10-28",
+      "time": "15:30",
+      "userId": 8,
+      "id": 4
+    },
+    {
+      "name": "Scary Clowns and Cowboy Ballads",
+      "date": "2022-10-28",
+      "time": "21:53",
+      "userId": 4,
+      "id": 5
+    }
+  ],
+  "eventMovies": [
+    {
+      "id": 1,
+      "movieId": 760741,
+      "eventId": 1,
+      "numOfVotes": 2,
+      "creatorId": 6
+    },
+    {
+      "id": 2,
+      "movieId": 758724,
+      "eventId": 1,
+      "numOfVotes": 1,
+      "creatorId": 3
+    },
+    {
+      "id": 3,
+      "movieId": 758724,
+      "eventId": 4,
+      "numOfVotes": 2,
+      "creatorId": 5
+    }
+  ],
+  "watchList": [
+    {
+      "movieId": 927341,
+      "userId": 8,
+      "watched": false,
+      "id": 3
+    },
+    {
+      "movieId": 762504,
+      "userId": 8,
+      "watched": false,
+      "id": 4
+    },
+    {
+      "movieId": 758724,
+      "userId": 8,
+      "watched": false,
+      "id": 5
+    },
+    {
+      "movieId": 760161,
+      "userId": 8,
+      "watched": false,
+      "id": 6
+    },
+    {
+      "movieId": 661791,
+      "userId": 3,
+      "watched": false,
+      "id": 8
+    }
+  ],
+  "eventGuests": [
+    {
+      "id": 1,
+      "userId": 4,
+      "eventId": 4
+    },
+    {
+      "id": 2,
+      "userId": 5,
+      "eventId": 4
+    },
+    {
+      "id": 3,
+      "userId": 7,
+      "eventId": 1
+    },
+    {
+      "userId": 8,
+      "eventId": 1,
+      "id": 4
+    },
+    {
+      "userId": 4,
+      "eventId": 1,
+      "id": 5
+    },
+    {
+      "userId": 2,
+      "eventId": 1,
+      "id": 6
+    },
+    {
+      "userId": 5,
+      "eventId": 1,
+      "id": 7
+    }
+  ]
+}
