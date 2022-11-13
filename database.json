@@ -2,45 +2,45 @@
   "users": [
     {
       "id": 1,
-      "fullName": "Cowboy Dan",
-      "address": "4508 Bigote Beach Drive",
-      "email": "Hunchabunch@wizardportal.edu"
+      "fullName": "Jason Vorhees",
+      "address": "4508 Camp Crystal Lake",
+      "email": "HockeyMask@crystallake.gov"
     },
     {
       "id": 2,
-      "fullName": "Studs Terkel",
-      "address": "3256 Illinois Avenue",
-      "email": "AllSmiles@gosma.com"
+      "fullName": "Freddy Kreuger",
+      "address": "3256 Elm Street",
+      "email": "AllSmiles@dreamland.com"
     },
     {
       "id": 3,
-      "fullName": "Hercule Poirot",
-      "address": "Cabin 12",
-      "email": "HPoirot@mysterinc.bg"
+      "fullName": "Charles Lee Ray",
+      "address": "256 Good Guy Lane",
+      "email": "Chucky@damballachant.com"
     },
     {
       "id": 4,
-      "fullName": "Geno Spratley",
-      "address": "95607 Prentice Center",
-      "email": "gspratley0@topsy.com"
+      "fullName": "Michael Myers",
+      "address": "45 Lampkin Lane",
+      "email": "theshape@haddonfield.gov"
     },
     {
       "id": 5,
-      "fullName": "Flora Caulder",
-      "address": "64 Canary Point",
-      "email": "fcaulder1@mail.ru"
+      "fullName": "Norman Bates",
+      "address": "4019 Highway 88",
+      "email": "norman@batestaxedermy.com"
     },
     {
       "id": 6,
-      "fullName": "Norene Heck",
-      "address": "8 International Alley",
-      "email": "nheck2@altervista.org"
+      "fullName": "Jack Torrence",
+      "address": "333 E Wonderview Ave",
+      "email": "allworknoplay@overlookhotel.com"
     },
     {
       "id": 7,
-      "fullName": "Herman Overstone",
-      "address": "06608 Graedel Crossing",
-      "email": "hoverstone3@uol.com.br"
+      "fullName": "Leatherface",
+      "address": "Last Chance Gas",
+      "email": "PrettyInPink@SkinSuit.com"
     },
     {
       "id": 8,
@@ -53,6 +53,24 @@
       "address": "213 New York Avenue",
       "email": "SPlisskin@escape.net",
       "id": 9
+    },
+    {
+      "fullName": "Cropsy",
+      "address": "Cabin 5, Camp Blackfoot",
+      "email": "BurnedAlive@MercilessStench.com",
+      "id": 10
+    },
+    {
+      "fullName": "Hannibal Lechter",
+      "address": "71 Simcoe Street",
+      "email": "Gastronome@porthaven.org",
+      "id": 11
+    },
+    {
+      "fullName": "Count Dracula",
+      "address": "234 Transylvania Circle",
+      "email": "Dirtnap@Coffinbaby.com",
+      "id": 12
     }
   ],
   "events": [
@@ -64,18 +82,32 @@
       "time": "7:00"
     },
     {
-      "name": "Walter's Weepies",
-      "date": "2022-10-28",
-      "time": "15:30",
-      "userId": 8,
-      "id": 4
+      "name": "Ghost Pirates",
+      "date": "2022-10-25",
+      "time": "19:30",
+      "userId": 3,
+      "id": 7
     },
     {
-      "name": "Scary Clowns and Cowboy Ballads",
-      "date": "2022-10-28",
-      "time": "21:53",
+      "name": "Undead",
+      "date": "2022-10-12",
+      "time": "18:30",
+      "userId": 2,
+      "id": 9
+    },
+    {
+      "name": "Big guys with knives",
+      "date": "2022-10-30",
+      "time": "20:00",
       "userId": 4,
-      "id": 5
+      "id": 10
+    },
+    {
+      "name": "Zombies",
+      "date": "2022-10-25",
+      "time": "19:30",
+      "userId": 8,
+      "id": 11
     }
   ],
   "eventMovies": [
@@ -94,56 +126,303 @@
       "creatorId": 3
     },
     {
-      "id": 3,
-      "movieId": 758724,
-      "eventId": 4,
-      "numOfVotes": 2,
-      "creatorId": 5
+      "movieId": 10585,
+      "eventId": 7,
+      "numOfVotes": 0,
+      "creatorId": 3,
+      "id": 8
+    },
+    {
+      "movieId": 24341,
+      "eventId": 7,
+      "numOfVotes": 1,
+      "creatorId": 3,
+      "id": 9
+    },
+    {
+      "movieId": 10351,
+      "eventId": 9,
+      "numOfVotes": 0,
+      "creatorId": 2,
+      "id": 11
+    },
+    {
+      "movieId": 694,
+      "eventId": 9,
+      "numOfVotes": 1,
+      "creatorId": 2,
+      "id": 12
+    },
+    {
+      "movieId": 913290,
+      "eventId": 10,
+      "numOfVotes": 0,
+      "creatorId": 4,
+      "id": 13
+    },
+    {
+      "movieId": 10676,
+      "eventId": 10,
+      "numOfVotes": 1,
+      "creatorId": 4,
+      "id": 14
+    },
+    {
+      "movieId": 790,
+      "eventId": 10,
+      "numOfVotes": 1,
+      "creatorId": 4,
+      "id": 15
+    },
+    {
+      "movieId": 9599,
+      "eventId": 10,
+      "numOfVotes": 0,
+      "creatorId": 4,
+      "id": 16
+    },
+    {
+      "movieId": 33020,
+      "eventId": 7,
+      "numOfVotes": 0,
+      "creatorId": 8,
+      "id": 17
+    },
+    {
+      "movieId": 11586,
+      "eventId": 11,
+      "numOfVotes": 1,
+      "creatorId": 8,
+      "id": 18
+    },
+    {
+      "movieId": 11587,
+      "eventId": 11,
+      "numOfVotes": 0,
+      "creatorId": 8,
+      "id": 19
+    },
+    {
+      "movieId": 28942,
+      "eventId": 11,
+      "numOfVotes": 0,
+      "creatorId": 8,
+      "id": 20
     }
   ],
   "watchList": [
     {
-      "movieId": 927341,
-      "userId": 8,
-      "watched": false,
-      "id": 3
-    },
-    {
       "movieId": 762504,
-      "userId": 8,
+      "userId": 10,
       "watched": false,
-      "id": 4
+      "id": 9
     },
     {
-      "movieId": 758724,
-      "userId": 8,
+      "movieId": 760104,
+      "userId": 10,
       "watched": false,
-      "id": 5
-    },
-    {
-      "movieId": 760161,
-      "userId": 8,
-      "watched": false,
-      "id": 6
+      "id": 10
     },
     {
       "movieId": 661791,
+      "userId": 10,
+      "watched": false,
+      "id": 11
+    },
+    {
+      "movieId": 159211,
+      "userId": 10,
+      "watched": false,
+      "id": 12
+    },
+    {
+      "movieId": 345940,
+      "userId": 10,
+      "watched": false,
+      "id": 13
+    },
+    {
+      "movieId": 259693,
+      "userId": 10,
+      "watched": false,
+      "id": 14
+    },
+    {
+      "movieId": 522444,
+      "userId": 11,
+      "watched": false,
+      "id": 15
+    },
+    {
+      "movieId": 10585,
       "userId": 3,
       "watched": false,
-      "id": 8
+      "id": 25
+    },
+    {
+      "movieId": 24341,
+      "userId": 3,
+      "watched": false,
+      "id": 26
+    },
+    {
+      "movieId": 10676,
+      "userId": 4,
+      "watched": false,
+      "id": 27
+    },
+    {
+      "movieId": 11357,
+      "userId": 4,
+      "watched": false,
+      "id": 28
+    },
+    {
+      "movieId": 11361,
+      "userId": 4,
+      "watched": false,
+      "id": 29
+    },
+    {
+      "movieId": 790,
+      "userId": 4,
+      "watched": false,
+      "id": 30
+    },
+    {
+      "movieId": 10785,
+      "userId": 4,
+      "watched": false,
+      "id": 31
+    },
+    {
+      "movieId": 9599,
+      "userId": 4,
+      "watched": false,
+      "id": 32
+    },
+    {
+      "movieId": 8851,
+      "userId": 4,
+      "watched": false,
+      "id": 33
+    },
+    {
+      "movieId": 913290,
+      "userId": 4,
+      "watched": false,
+      "id": 34
+    },
+    {
+      "movieId": 11797,
+      "userId": 2,
+      "watched": false,
+      "id": 35
+    },
+    {
+      "movieId": 10779,
+      "userId": 2,
+      "watched": false,
+      "id": 36
+    },
+    {
+      "movieId": 18086,
+      "userId": 2,
+      "watched": false,
+      "id": 37
+    },
+    {
+      "movieId": 10351,
+      "userId": 2,
+      "watched": false,
+      "id": 38
+    },
+    {
+      "movieId": 12594,
+      "userId": 2,
+      "watched": false,
+      "id": 39
+    },
+    {
+      "movieId": 694,
+      "userId": 2,
+      "watched": false,
+      "id": 40
+    },
+    {
+      "movieId": 11954,
+      "userId": 2,
+      "watched": false,
+      "id": 41
+    },
+    {
+      "movieId": 87517,
+      "userId": 2,
+      "watched": false,
+      "id": 42
+    },
+    {
+      "movieId": 9542,
+      "userId": 2,
+      "watched": false,
+      "id": 43
+    },
+    {
+      "movieId": 31767,
+      "userId": 2,
+      "watched": false,
+      "id": 44
+    },
+    {
+      "movieId": 40149,
+      "userId": 3,
+      "watched": false,
+      "id": 45
+    },
+    {
+      "movieId": 31767,
+      "userId": 8,
+      "watched": false,
+      "id": 47
+    },
+    {
+      "movieId": 3112,
+      "userId": 8,
+      "watched": false,
+      "id": 48
+    },
+    {
+      "movieId": 33020,
+      "userId": 8,
+      "watched": false,
+      "id": 49
+    },
+    {
+      "movieId": 28942,
+      "userId": 8,
+      "watched": false,
+      "id": 50
+    },
+    {
+      "movieId": 11587,
+      "userId": 8,
+      "watched": false,
+      "id": 51
+    },
+    {
+      "movieId": 11586,
+      "userId": 8,
+      "watched": false,
+      "id": 52
+    },
+    {
+      "movieId": 663712,
+      "userId": 8,
+      "watched": false,
+      "id": 53
     }
   ],
   "eventGuests": [
-    {
-      "id": 1,
-      "userId": 4,
-      "eventId": 4
-    },
-    {
-      "id": 2,
-      "userId": 5,
-      "eventId": 4
-    },
     {
       "id": 3,
       "userId": 7,
@@ -168,6 +447,174 @@
       "userId": 5,
       "eventId": 1,
       "id": 7
+    },
+    {
+      "userId": 3,
+      "eventId": 7,
+      "hasVoted": true,
+      "isHost": true,
+      "id": 13
+    },
+    {
+      "userId": 8,
+      "eventId": 7,
+      "hasVoted": false,
+      "isHost": false,
+      "id": 14
+    },
+    {
+      "userId": 6,
+      "eventId": 7,
+      "hasVoted": false,
+      "isHost": false,
+      "id": 15
+    },
+    {
+      "userId": 5,
+      "eventId": 7,
+      "hasVoted": false,
+      "isHost": false,
+      "id": 16
+    },
+    {
+      "userId": 9,
+      "eventId": 7,
+      "hasVoted": false,
+      "isHost": false,
+      "id": 17
+    },
+    {
+      "userId": 2,
+      "hasVoted": false,
+      "isHost": true,
+      "eventId": 9,
+      "id": 32
+    },
+    {
+      "userId": 8,
+      "eventId": 9,
+      "hasVoted": true,
+      "isHost": false,
+      "id": 33
+    },
+    {
+      "userId": 6,
+      "eventId": 9,
+      "hasVoted": false,
+      "isHost": false,
+      "id": 34
+    },
+    {
+      "userId": 4,
+      "eventId": 9,
+      "hasVoted": false,
+      "isHost": false,
+      "id": 35
+    },
+    {
+      "userId": 11,
+      "eventId": 9,
+      "hasVoted": false,
+      "isHost": false,
+      "id": 36
+    },
+    {
+      "userId": 10,
+      "eventId": 9,
+      "hasVoted": false,
+      "isHost": false,
+      "id": 37
+    },
+    {
+      "userId": 4,
+      "eventId": 10,
+      "hasVoted": true,
+      "isHost": true,
+      "id": 38
+    },
+    {
+      "userId": 5,
+      "eventId": 10,
+      "hasVoted": false,
+      "isHost": false,
+      "id": 39
+    },
+    {
+      "userId": 8,
+      "eventId": 10,
+      "hasVoted": true,
+      "isHost": false,
+      "id": 40
+    },
+    {
+      "userId": 7,
+      "eventId": 10,
+      "hasVoted": false,
+      "isHost": false,
+      "id": 41
+    },
+    {
+      "userId": 2,
+      "eventId": 10,
+      "hasVoted": false,
+      "isHost": false,
+      "id": 42
+    },
+    {
+      "userId": 1,
+      "eventId": 10,
+      "hasVoted": false,
+      "isHost": false,
+      "id": 43
+    },
+    {
+      "userId": 11,
+      "eventId": 10,
+      "hasVoted": false,
+      "isHost": false,
+      "id": 44
+    },
+    {
+      "userId": 8,
+      "eventId": 11,
+      "hasVoted": true,
+      "isHost": true,
+      "id": 45
+    },
+    {
+      "userId": 1,
+      "eventId": 11,
+      "hasVoted": false,
+      "isHost": false,
+      "id": 46
+    },
+    {
+      "userId": 6,
+      "eventId": 11,
+      "hasVoted": false,
+      "isHost": false,
+      "id": 47
+    },
+    {
+      "userId": 11,
+      "eventId": 11,
+      "hasVoted": false,
+      "isHost": false,
+      "id": 48
+    },
+    {
+      "userId": 12,
+      "eventId": 11,
+      "hasVoted": false,
+      "isHost": false,
+      "id": 49
+    },
+    {
+      "userId": 7,
+      "eventId": 11,
+      "hasVoted": false,
+      "isHost": false,
+      "id": 50
     }
   ]
 }
